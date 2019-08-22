@@ -1,0 +1,6 @@
+Write a Bash script which accepts NAME as input and displays a greeting: "Welcome (name)".
+
+read a
+echo Welcome $a
+
+#we have used read to print the statement while printing.
