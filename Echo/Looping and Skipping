@@ -1,0 +1,8 @@
+Your task is to use for loops to display only odd natural numbers from 1 to 99.
+
+for n in {1..99..2}
+do
+    echo $n
+    done
+
+#In this [ ..2 ] is used to print odd numbers. This will add the +2 in the number while iteration.
