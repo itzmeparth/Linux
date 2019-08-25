@@ -1,0 +1,28 @@
+Read in one character from the user (this may be 'Y', 'y', 'N', 'n'). If the character is 'Y' or 'y' display "YES". If the character is 'N' or 'n' display "NO". No other character will be provided as input.
+
+Input Format
+
+One character (this may be 'Y', 'y', 'N', 'n').
+
+Constraints
+
+-
+
+Output Format
+
+One word: either "YES" or "NO" (quotation marks excluded).
+
+The output for the statement is : -
+
+read char;
+small=${char,,}
+  
+  if [ $small == "y" ]; then
+    echo "YES"
+  elif [ $small == "n" ]; then
+    echo "NO"
+  else
+    exit 0;
+fi
+
+#Here fi means to end the code or it means done.
