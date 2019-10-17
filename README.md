@@ -5,5 +5,5 @@ Bash Programming
 ## Development of the Linux Scripts.
 
 
-Woking on the scripts for Red Hat Enterprise Limited 7,8
+Woking on the scripts (Red Hat Enterprise Limited)
 
